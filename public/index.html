@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Time Voting Voice Communication</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="voice-container">
+    <h2>Voice Communication</h2>
+    <img id="startCall" src="images/startcall.png" alt="Start Call" class="call-icon">
+    <img id="endCall" src="images/endcall.png" alt="End Call" class="call-icon" style="display: none;">
+    <audio id="localAudio" autoplay muted></audio>
+    <audio id="remoteAudio" autoplay controls></audio>
+  </div>
+  <div class="main-container">
+    <div class="voting-section">
+        <div id="voteHistoryContainer">
+            <h3>Vote History</h3>
+            <ul id="voteHistoryList"></ul>
+        </div>
+        <div id="voting-container">
+            <h2>Voting</h2>
+            <div class="vote-option" onclick="castVote('yes')">
+                <img src="images/happy.png" alt="Yes">
+                <p>Yes</p>
+            </div>
+            <div class="vote-option" onclick="castVote('no')">
+                <img src="images/sad.png" alt="No">
+                <p>No</p>
+            </div>
+            <div class="vote-option" onclick="castVote('maybe')">
+                <img src="images/neutral.png" alt="Maybe">
+                <p>Maybe</p>
+            </div>
+            <button id="resetVotesButton">Reset Votes</button>
+            <p>Votes: <span id="voteCount">Yes: 0, No: 0, Maybe: 0</span></p>
+        </div>
+    </div>
+</div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

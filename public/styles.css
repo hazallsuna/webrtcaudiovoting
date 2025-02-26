@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #2c2f33;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.voting-section {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: flex-start;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+}
+
+#voteHistoryContainer {
+    background:#fff;
+    border: 1px solid #7c807c;
+    border-radius: 8px;
+    padding: 15px;
+    width: 320px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    width: 320px;
+    height: 55.5vh; 
+    margin-right: 40px;
+    color: #2c2f33; 
+    overflow-y: auto;
+}
+
+#voteHistoryContainer h3 {
+    color: #2c2f33;
+    text-align: center; 
+}
+
+#voting-container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 320px;
+}
+#voting-container h2{
+    color: #2c2f33;
+    text-align: center; 
+
+}
+
+.voice-container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    background: white;
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 10px auto;
+    position: relative;
+}
+
+.call-icon:hover {
+    transform: scale(1.1);
+    background: #dddddf;
+}
+
+
+#resetVotesButton {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    margin-top: 10px;
+}
+
+#resetVotesButton:hover {
+    background-color: #cc0000cc;
+}
+
+
+.vote-option {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    background-color: #dddddf;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 200px;
+    margin: 5px auto;
+}
+
+.vote-option img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.vote-option:hover {
+    transform: scale(1.1);
+    background-color: #bdbdbd;
+}
+
+.vote-option p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    color:#2c2f33;
+}
+#voteCount {
+    font-weight: bold;
+    color: #2c2f33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
