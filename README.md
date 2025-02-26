@@ -1,57 +1,62 @@
 # Real-Time Voting & Voice Communication 🗳️🔊
 
-📢 **Gerçek Zamanlı Oylama ve Sesli İletişim Projesi**  
-Bu proje, kullanıcıların gerçek zamanlı olarak **oy kullanmasını** ve **sesli iletişim kurmasını** sağlayan bir WebRTC ve WebSocket tabanlı bir uygulamadır.
+📢 Real-Time Voting and Voice Communication Project
+This project is a WebRTC and WebSocket-based application that allows users to vote in real time and communicate via voice chat.
 
-## 📸 Ekran Görüntüsü 
+## 📸Screenshots
 ![Ekran görüntüsü 2025-02-26 195033](https://github.com/user-attachments/assets/f08bc2a2-77c8-4708-ba4d-7223c8876333)
 ![Ekran görüntüsü 2025-02-26 195016](https://github.com/user-attachments/assets/b18e189b-1c32-4979-b4b8-06f54926301f)
 
 
 ## 🎥 Video
-🔗 **Videoyu buradan izleyebilirsiniz:** [Video Linki](https://drive.google.com/file/d/1aEWtSVL8eF8ZqO9hKMqah9nBHJpTl82N/view?usp=sharing)
+🔗 **Watch the demo here:** [Video Linki](https://drive.google.com/file/d/1aEWtSVL8eF8ZqO9hKMqah9nBHJpTl82N/view?usp=sharing)
 
 
-## 🚀 Özellikler
-- ✅ **Gerçek zamanlı oylama (Yes/No/Maybe)**
-- 🔊 **WebRTC ile sesli iletişim**
-- 📡 **WebSocket (Socket.io) ile anlık veri aktarımı**
-- 🎨 **Etkin kullanıcı arayüzü**
-- 💾 **Oy geçmişini görüntüleme & sıfırlama**
+## 🚀 Features
+- ✅ **Real-time voting (Yes/No/Maybe)**
+- 🔊 **Voice communication via WebRTC**
+- 📡 **Real-time data transfer with WebSocket (Socket.io)**
+- 🎨 **User-friendly interface**
+- 💾 **View and reset voting history**
 
-## 🛠 Kurulum & Çalıştırma
+## 🛠  Installation & Setup
 
-Aşağıdaki adımları izleyerek projeyi lokal ortamda çalıştırabilirsiniz:
+Follow the steps below to run the project locally:
 
-### 1️⃣ Gerekli Bağımlılıkları Kurun
-Öncelikle, projenin bağımlılıklarını yüklemek için aşağıdaki komutu çalıştırın:
-
+### 1️⃣ Install Required Dependencies
+First, install the required dependencies by running the following command:
 ```bash
 npm install express socket.io cors
 npm install --save-dev nodemon
 
 ```
-Express.js ile sunucuyu çalıştırmak için şu komutu kullanın:
+Run the following command to start the Express.js server:
 ```bash
 node server.js 
 ```
-## 📖 Kullanım Kılavuzu
+## 📖  How to Use
 
-1️⃣ **Web sitesine giriş yapın** (localhost:3000).  
-2️⃣ **Sesli görüşme başlatmak için** "Start Call" butonuna tıklayın.  
-3️⃣ **Oylama yapmak için** "Yes", "No" veya "Maybe" butonlarını kullanın.  
-4️⃣ **Oylama geçmişini görmek için** aşağı kaydırın.  
-5️⃣ **Çağrıyı sonlandırmak için** "End Call" butonuna tıklayın.  
-6️⃣ **Oyları sıfırlamak için** "Reset Votes" butonunu kullanabilirsiniz.  
+1️⃣ **Open the website (`localhost:3000`).**  
 
-## 💻 Kullanılan Teknolojiler
+2️⃣ **Click "Start Call" to initiate a voice call.**  
 
-| Teknoloji  | Açıklama  |
+3️⃣ **Vote using the "Yes", "No", or "Maybe" buttons.**  
+
+4️⃣ **Scroll down to see the voting history.**  
+
+5️⃣ **Click "End Call" to terminate the call.**  
+
+6️⃣ **Use the "Reset Votes" button to clear the voting history.**  
+ 
+
+## 💻 Technologies Used
+
+| Technology | Description  |
 |------------|--------------|
-| **Node.js** | Sunucu tarafında çalışıyor |
-| **Express.js** | Backend framework |
-| **Socket.io** | Gerçek zamanlı veri aktarımı |
-| **WebRTC** | Sesli iletişim için |
-| **HTML/CSS** | Arayüz tasarımı |
-| **JavaScript (Vanilla JS)** | Frontend dinamikleri |
+| **Node.js** | Runs on the server-side |
+| **Express.js** | Backend framework|
+| **Socket.io** |Real-time data transfer |
+| **WebRTC** | Enables voice communication|
+| **HTML/CSS** | User interface design |
+| **JavaScript (Vanilla JS)** |Handles frontend interactions |
 
