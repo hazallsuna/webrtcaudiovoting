@@ -4,11 +4,9 @@
 Bu proje, kullanıcıların gerçek zamanlı olarak **oy kullanmasını** ve **sesli iletişim kurmasını** sağlayan bir WebRTC ve WebSocket tabanlı bir uygulamadır.
 
 ## 📸 Ekran Görüntüsü 
+![Ekran görüntüsü 2025-02-26 195033](https://github.com/user-attachments/assets/f08bc2a2-77c8-4708-ba4d-7223c8876333)
+![Ekran görüntüsü 2025-02-26 195016](https://github.com/user-attachments/assets/b18e189b-1c32-4979-b4b8-06f54926301f)
 
-### 🔹 **Ekran Görüntüsü**
-![](Ekran görüntüsü 2025-02-26 192728.png)
-
-![](Ekran görüntüsü 2025-02-26 192742.png)
 
 ## 🎥 Video
 🔗 **Videoyu buradan izleyebilirsiniz:** [Video Linki](https://drive.google.com/file/d/1aEWtSVL8eF8ZqO9hKMqah9nBHJpTl82N/view?usp=sharing)
